@@ -3,7 +3,7 @@ from django.urls import path
 from . import views
 from django.urls import path
 
-from . import views
+f
 
 app_name = 'cms'
 
@@ -12,8 +12,5 @@ urlpatterns = [
     path('login/', views.Login.as_view(), name='login'),
     path('logout/', views.Logout.as_view(), name='logout'),
     path('signup/', views.UserCreate.as_view(), name='signup'),
-<<<<<<< HEAD
+    path('user/<int:pk>/update/', views.UserUpdate.as_view(), name='user_update'),
 ]
-=======
-]
->>>>>>> f0f4cc87bc06bbf7c394f704da06bf204c731eac
