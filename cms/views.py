@@ -3,20 +3,6 @@ from django.contrib.auth.views import (
     LoginView, LogoutView,
 )
 from django.http import HttpResponseRedirect
-from django.urls import reverse_lazy
-from django.views.generic.base import TemplateView
-from django.views.generic.edit import (
-    CreateView,
-)
-
-from .forms import (
-    LoginForm, UserCreateForm,
-)
-from django.contrib.auth import get_user_model, login
-from django.contrib.auth.views import (
-    LoginView, LogoutView,
-)
-from django.http import HttpResponseRedirect
 from django.shortcuts import resolve_url
 from django.urls import reverse_lazy
 from django.views.generic.base import TemplateView
@@ -28,6 +14,9 @@ from .mixins import OnlyYouMixin
 from .forms import (
     LoginForm, UserCreateForm, UserUpdateForm,
 )
+from django.views.generic.detail import DetailView
+
+from django.views.generic.list import ListView
 
 
 class TopView(TemplateView):
@@ -59,3 +48,16 @@ class UserUpdate(OnlyYouMixin, UpdateView):
 
     def get_success_url(self):
         return resolve_url('cms:user_detail', pk=self.kwargs['pk'])
+
+class UserDetail(DetailView):
+    model = UserModel
+    template_name = 'cms/user_detail.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['pk'] = self.kwargs['pk']
+        return context
+
+class UserList(ListView):
+    model = UserModel
+    template_name = 'cms/user_list.html'
