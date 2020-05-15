@@ -126,3 +126,5 @@ STATIC_URL = '/static/'
 
 # Custom
 AUTH_USER_MODEL = 'cms.User'
+LOGIN_URL = 'cms:login'
+LOGIN_REDIRECT_URL = 'cms:top'
