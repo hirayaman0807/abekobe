@@ -26,12 +26,8 @@ SECRET_KEY = 'rudzmpdqmsj@h@dzy)#lu$oiy(_cfx#q1ah&^(!3v2t=1ul+#h'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-<<<<<<< HEAD
     '192.168.99.101'
-=======
-    "192.168.99.101" #Added
->>>>>>> 61ba18b8cd6f26b2aa48822f22dbfdb99af5b5a8
-]
+    ]
 
 
 # Application definition
@@ -44,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'cms.apps.CmsConfig', #Added
+    'chat', #Added
+    'channels', #Added
 ]
 
 MIDDLEWARE = [
@@ -75,6 +73,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
+ASGI_APPLICATION = 'config.routing.application' # Added
 
 
 # Database
