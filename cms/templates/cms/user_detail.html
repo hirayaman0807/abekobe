@@ -41,3 +41,23 @@
     </div>
 </section>
 {% endblock %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <div class="level">
+            <div class="level-left">
+                {% if user.twitter %}
+                <div class="level-item">
+                    <div class="tags has-addons">
+                        <span class="tag"><span class="icon is-small is-left"><i class="fab fa-twitter"></i></span></span>
+                        <span class="tag is-dark"><a class="has-text-white" href="https://twitter.com/{{ user.twitter }}" target="_blank">@{{ user.twitter }}</a></span>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+    </div>
+</section>
+{% endblock %}

@@ -78,6 +78,8 @@ class AbstractUser(AbstractBaseUser, PermissionsMixin):
     )
     date_joined = models.DateTimeField(_('date joined'), default=timezone.now)
 
+    twitter = models.CharField(_('Twitter'), max_length=50, blank=True)
+
     objects = UserManager()
 
     EMAIL_FIELD = 'email'
@@ -104,3 +106,4 @@ class AbstractUser(AbstractBaseUser, PermissionsMixin):
 class User(AbstractUser):
     class Meta(AbstractUser.Meta):
         swappable = "AUTH_USER_MODEL"
+

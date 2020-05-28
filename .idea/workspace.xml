@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e5ae497-a368-4c2f-8c3a-759d2e4aded2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/chat_room.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/templates/cms/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/cms/templates/cms/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1c0uc4Qnlbf8Cv3KmhGcdTiZkQZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="code" type="Python.DjangoServer" factoryName="Django server">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e5ae497-a368-4c2f-8c3a-759d2e4aded2" name="Default Changelist" comment="" />
+      <created>1589677907726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589677907726</updated>
+      <workItem from="1589677909650" duration="1371000" />
+      <workItem from="1589708108997" duration="1903000" />
+      <workItem from="1589710017566" duration="547000" />
+      <workItem from="1589710567654" duration="124000" />
+      <workItem from="1589710903818" duration="11000" />
+      <workItem from="1589710915339" duration="1143000" />
+      <workItem from="1589718552677" duration="1103000" />
+      <workItem from="1589857221415" duration="384000" />
+      <workItem from="1589894258222" duration="57000" />
+      <workItem from="1589953569746" duration="5634000" />
+      <workItem from="1590129653050" duration="3189000" />
+      <workItem from="1590294744430" duration="4460000" />
+      <workItem from="1590326262082" duration="63000" />
+      <workItem from="1590327669515" duration="1875000" />
+      <workItem from="1590391247776" duration="2647000" />
+      <workItem from="1590563228365" duration="6171000" />
+      <workItem from="1590585005690" duration="602000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="484" y="0" key="#code" timestamp="1590131733016">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="0" key="#code/0.0.1536.824@0.0.1536.824" timestamp="1590131733016" />
+    <state x="100" y="109" width="1336" height="615" key="DiffContextDialog" timestamp="1589710458895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="109" width="1336" height="615" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1589710458895" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589710911705">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589710911705" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590563577311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590563577311" />
+  </component>
+</project>
